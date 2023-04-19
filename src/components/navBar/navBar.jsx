@@ -11,7 +11,7 @@ export default function NavBar() {
           <a href="https://askedgar.ghost.io/" target="_blank">Blogs</a>
         </li>
         <li>
-          <a href="/team">Team</a>
+          <a href="https://askedgar.ghost.io/welcome-to-askedgar/">Team</a>
         </li>
       </ul>
     </nav>
