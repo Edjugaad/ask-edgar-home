@@ -1,0 +1,127 @@
+.Home {
+  text-align: center;
+  background-color: #f7f6f2;
+  color: #1c3879;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+.Home-logo {
+  height: 15vh;
+  transition: 0.7s all;
+}
+
+.Home-logo:hover {
+  cursor: pointer;
+  height: 17vh;
+}
+
+.Logo-container {
+  padding-top: 25px;
+}
+
+.Company-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  height: 100px;
+}
+
+.Company-logo {
+  height: 80px;
+  margin: 0 25px;
+  transition: 0.7s all;
+}
+
+.Company-logo:hover {
+  cursor: pointer;
+  height: 100px;
+}
+
+.Product-introduction {
+  margin-top: 40px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.Product-introduction h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.Product-introduction p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Product-introduction button {
+  background-color: #1c3879;
+  color: #f7f6f2;
+  font-size: 24px;
+  padding: 10;
+}
+
+.Options-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.Options-container h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.Options-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.Options-container li {
+  margin-right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #2d2d2d;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.Options-container li:hover {
+  background-color: #444;
+}
+
+.Buttons {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.Buttons button {
+width: 200px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  background-color: #1c3879;
+  color: #f7f6f2;
+  border: none;
+  border-radius: 20px;
+  transition: 0.7s all;
+}
+
+.Buttons button:hover {
+    cursor: pointer;
+    background-color: #607EAA;
+    box-shadow: 0 0 4px 2px #aaa;
+}
