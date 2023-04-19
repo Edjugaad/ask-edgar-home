@@ -22,44 +22,52 @@ function Home() {
             filings.
           </p>
           <p className="content">
-            Try our demo today or visit our blogs to learn how to deploy your
+            Try our demo today or visit our blog to learn how to deploy your
             own.
           </p>
           <div className="Company-logos">
-            <a href="https://test2-three-eta.vercel.app/" target="_blank">
+            <a href="https://ask-edgar-demo-amzn.vercel.app/" target="_blank">
               <img
                 src={amazonLogo}
                 className="Company-logo amazon"
                 alt="company1-logo"
               />
             </a>
+            <a href="https://ask-edgar-demo-aapl.vercel.app/" target="_blank">
             <img
               src={appleLogo}
               className="Company-logo apple"
               alt="company2-logo"
             />
+            </a>
+            <a href="https://ask-edgar-demo-msft.vercel.app/" target="_blank">
             <img
               src={microsoftLogo}
               className="Company-logo microsoft"
               alt="company3-logo"
             />
+            </a>
+            <a href="https://ask-edgar-demo-nvda.vercel.app/" target="_blank">
             <img
               src={nvidiaLogo}
               className="Company-logo nvidia"
               alt="company4-logo"
             />
+            </a>
+            <a href="https://ask-edgar-demo-brkb.vercel.app/" target="_blank">
             <img
               src={brkLogo}
               className="Company-logo brk"
               alt="company5-logo"
             />
+            </a>
           </div>
           <div className="Buttons">
-            <a href="https://test2-three-eta.vercel.app/" target="_blank">
+            <a href="https://ask-edgar-demo-nvda.vercel.app/" target="_blank">
               <button>Try Demo</button>
             </a>
             <a href="https://askedgar.ghost.io/" target="_blank">
-              <button>View Blogs</button>
+              <button>View Blog</button>
             </a>
           </div>
         </div>
