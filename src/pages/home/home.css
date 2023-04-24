@@ -167,5 +167,10 @@
     font-weight: 500;
     height: 100%;
     text-align: center;
-}
+  }
+  .Home-logo:hover {
+  cursor: pointer;
+  height: 10vh;
+  }
+
 }
