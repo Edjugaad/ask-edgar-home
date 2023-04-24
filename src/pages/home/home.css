@@ -131,13 +131,13 @@
     height: 10vh;
     transition: all .7s;
 }
-  .Company-logos {
+.Company-logos {
     align-items: center;
     display: flex;
-    /* height: 100px; */
-    justify-content: center;
-    margin-top: 50px;
     flex-direction: column;
+    justify-content: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
   .Company-logo {
     height: 80px;
