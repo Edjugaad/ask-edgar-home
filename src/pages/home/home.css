@@ -105,7 +105,7 @@
 }
 
 .Buttons button {
-width: 200px;
+  width: 200px;
   margin-left: 80px;
   margin-right: 80px;
   padding: 10px;
@@ -124,4 +124,58 @@ width: 200px;
     cursor: pointer;
     background-color: #607EAA;
     box-shadow: 0 0 4px 2px #aaa;
+}
+
+@media (max-width: 720px) {
+  .Home-logo {
+    height: 10vh;
+    transition: all .7s;
+}
+.Company-logos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+  .Company-logo {
+    height: 80px;
+    margin: 20px;
+    transition: all .7s;
+}
+  .Buttons {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+  .Buttons button {
+    align-items: center;
+    background-color: #1c3879;
+    border: none;
+    border-radius: 20px;
+    color: #f7f6f2;
+    font-family: Josefin Sans,sans-serif;
+    font-weight: 600;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: all .7s;
+    width: 200px;
+}
+  .Home {
+    background-color: #f7f6f2;
+    color: #1c3879;
+    font-family: Open Sans,sans-serif;
+    font-weight: 500;
+    height: 100%;
+    text-align: center;
+  }
+  .Home-logo:hover {
+  cursor: pointer;
+  height: 10vh;
+  }
+
 }
